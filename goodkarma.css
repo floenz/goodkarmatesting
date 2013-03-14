@@ -1,22 +1,22 @@
 html {
-
 	background: url(images/background.jpg) no-repeat center center fixed;
-
 	-webkit-background-size: cover;
-
 	-moz-background-size: cover;
-
 	-o-background-size: cover;
-
 	background-size: cover;
-
-
-
-
-
+	font-family:'Junge', serif;color:red;font-size:17;
 }
 
-
+blockquote {
+		margin-bottom: 0.5em;
+		margin-top: 0.5em;
+		margin-left: 0.1em;
+		padding: 0;
+		color: rgb(255, 0 ,0);
+		padding-left: 0.6em;
+		border-left: solid 4px;
+		background-image: none;
+}
 
 
 
@@ -38,7 +38,7 @@ html {
 	   left: 10%; top: 100px;    
 	} 
 	
-p {font-family:'Junge', serif;color:red;font-size:17;}
+
 	
 	
 	
