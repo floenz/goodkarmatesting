@@ -40,8 +40,7 @@ blockquote {
 	
 	
 	
-#footer {
-		 width:90%; top:150px;margin-bottom:20px;margin-top:20%left:10%;
-		}
-
+#footer img{float: left;margin-right:50px;} 
+#footer h2 {padding: 50px;font-size: 22px;color: white;}
+#footer {height:200px;}
 
