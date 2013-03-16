@@ -35,6 +35,7 @@
 	opacity: 0;
 	filter: alpha(opacity=0); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)"; /*IE8*/
+	/*
 	background: rgba(0, 0, 0, 0.8);
 	background: -moz-radial-gradient(center, ellipse cover, rgba(155,155,155,0.1) 0%, rgba(0, 0, 0, 0.8) 100%);
 	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,0.66)), color-stop(100%,rgba(0, 0, 0, 0.8)));
@@ -42,6 +43,7 @@
 	background: -o-radial-gradient(center, ellipse cover, rgba(155,155,155,0.1) 0%,rgba(0, 0, 0, 0.8) 100%);
 	background: -ms-radial-gradient(center, ellipse cover, rgba(155,155,155,0.1) 0%,rgba(0, 0, 0, 0.8) 100%);
 	background: radial-gradient(center, ellipse cover, rgba(155,155,155,0.1) 0%,rgba(0, 0, 0, 0.8) 100%);
+	*/
 	-webkit-transition: opacity 0.3s linear;
 	-moz-transition: opacity 0.3s linear;
 	-o-transition: opacity 0.3s linear;
