@@ -33,6 +33,6 @@ blockquote {
 #footer {width: 480px;  margin-left: 80px;}
 #footer img{float: right;margin-top:80px; opacity: 0.7;} 
 #footer h2 {padding-top: 155px;font-size: 12px;color: white;}
-
+#footer a {color: white;text-decoration:none}
 
 #ware {margin-top: 70px;height: 320px;}

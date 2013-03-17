@@ -8,6 +8,30 @@
 
 <link rel="stylesheet" type="text/css" href="goodkarma.css">
 <link rel="stylesheet" type="text/css" href="ware.css">
+
+ <script type="text/javascript"> <!--
+    function UnCryptMailto( s )
+    {
+        var n = 0;
+        var r = "";
+        for( var i = 0; i < s.length; i++)
+        {
+            n = s.charCodeAt( i );
+            if( n >= 8364 )
+            {
+                n = 128;
+            }
+            r += String.fromCharCode( n - 1 );
+        }
+        return r;
+    }
+
+    function linkTo_UnCryptMailto( s )
+    {
+        location.href=UnCryptMailto( s );
+    }
+    // --> </script>
+
 </head> 
 
 <body>
@@ -144,7 +168,7 @@
 		<div id="footer">  
 		
 		<img src="images/stempel-v2.png">
-		<h2>Steffen Zanner<br>Friedensstrasse 8 <br>89073 Ulm<br><br>info@goodkarmaracing.com</h2>
+		<h2>Steffen Zanner<br>Friedensstrasse 8 <br>89073 Ulm<br><br><a href="javascript:linkTo_UnCryptMailto('nbjmup;jogpAhppelbsnbsbdjoh/dpn');">info [at] goodkarmaracing [dot] com</a></h2>
 		
 		</div>	
 		
