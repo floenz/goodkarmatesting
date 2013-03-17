@@ -31,7 +31,7 @@ blockquote {
 #content {width:640px;margin:auto; }
 
 #footer {width: 590px; margin:auto;}
-#footer img{float: right;margin-right: 10px;margin-left:80px;} 
+#footer img{float: right;margin-right: 10px;margin-left:80px;opacity: 0.7;} 
 #footer h2 {padding: 54px;font-size: 12px;color: white;}
 
 
