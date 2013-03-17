@@ -114,20 +114,20 @@
 .lb-overlay div p{
 	text-align: left;
 	float: left;
+	color: #eee;
 	width: 260px;
 	margin-top:50px;
 }
 .lb-overlay a.lb-close{
 	/*background: url(images/close.png);*/
 	z-index: 1001;
-	color: #fff;
+	
 	position: absolute;
 	top: 43px;
 	left: 50%;
 	font-size: 15px;
 	line-height: 26px;
 	text-align: center;
-	width: 63px;
 	height: 32px;
 	overflow: hidden;
 	margin-left: -25px;
@@ -170,7 +170,7 @@
 .lb-overlay:target a.lb-close,
 .lb-overlay:target > div{
 	opacity: 1;
-	font-size: 18;
+	font-size: 18;color: #eee;font-weight: bold;
 	filter: alpha(opacity=99); /* internet explorer */
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)"; /*IE8*/
 }
