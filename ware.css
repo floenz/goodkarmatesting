@@ -3,6 +3,7 @@
 	float: left;
 	margin: 5px;
 	position: relative;
+	list-style: none outside none;
 }
 .lb-album li > a,
 .lb-album li > a img{
